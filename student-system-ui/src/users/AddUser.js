@@ -1,11 +1,11 @@
 import React from 'react';
-import ViewUser from './ViewUser';
+// import ViewUser from './ViewUser';
 import { useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
 
 
-export default function () {
+export default function AddUser() {
 
   let navigate = useNavigate()
   

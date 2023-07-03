@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/student")
-@CrossOrigin
+@CrossOrigin("http://localhost:3000/")
 public class StudentController {
     @Autowired
     private StudentRepository studentRepository;
